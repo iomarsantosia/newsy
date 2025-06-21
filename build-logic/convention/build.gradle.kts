@@ -21,5 +21,10 @@ gradlePlugin {
             id = "newsy.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
+
+        register("androidLibrary") {
+            id = "newsy.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
     }
 }
